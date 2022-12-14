@@ -5,7 +5,7 @@ function load() {
   //   console.log(data);
   // });
   instance.getAll("orders").then((data) =>{
-    // console.log(data)
+    console.log(data)
    let cvb= data.sort(function(a,b){
       return new Date(b.orderDate)-new Date(a.orderDate)
     })

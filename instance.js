@@ -2,7 +2,6 @@ const BASE_URL = "https://northwind.vercel.app/api/";
 
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
-  timeout: 1000,
 });
 
 const instance = {
@@ -22,4 +21,18 @@ const instance = {
 
     return responseData;
   },
+
+  //  update: async(url,id)=>{
+  //   let response=[];
+
+  //   await axiosInstance.put(`${url}/suppliers/${id}`,{
+  //     companyName:companyName
+  //   })
+  //      .then(res=>{
+  //         console.log(res)
+
+  //     })
+
+  //  }
+
 };
