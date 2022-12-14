@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.category_div{
+    width: 400px;
+    border: 1px solid white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.category_div input{
+    padding: 10px 8px;
+    margin: 10px 0px;
+}
+.category_div button{
+    padding: 8px 30px;
+}
+table{
+    color: black;
+}
